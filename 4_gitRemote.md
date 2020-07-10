@@ -67,9 +67,12 @@ $ git add --all
 $ git commit -m "recovery"
 $ git push -f origin master
 ```
+
 **Tips: 对master分支进行操作时，由于master分支受保护，所以需要解除保护。（以gitlab为例）**
+
 **解除步骤**
 `打开gitlab项目页 -> Setting -> Repository -> Protected Branches`
+
 
 ### Create a new repository
 
