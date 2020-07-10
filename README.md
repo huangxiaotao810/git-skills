@@ -14,3 +14,14 @@
 - 添加更新内容 （add updated contents）
 - 发起`pull request` （submit `pull request`）
 - 等待项目负责人合并 （wait for merging）
+
+
+
+### 使用步骤
+
+```bash
+克隆到本地电脑
+
+$ git clone https://github.com/huangxiaotao810/git-skills.git
+```
+
