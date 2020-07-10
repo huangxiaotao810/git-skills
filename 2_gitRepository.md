@@ -113,7 +113,7 @@ $ git rm fileName
 **恢复 `rm readme.md` 误删？**
 - 从暂存区拉取文件进行恢复`git checkout -- readme.md` 
 
-**恢复`git rm readme.md误删？
+**恢复`git rm readme.md误删？**
 
 - 从本地库拉取文件恢复
 
@@ -128,6 +128,14 @@ $ git checkout -- readme.md
 $ git rm readme.md
 $ git add .
 $ git commit -m "delete readme.md"
+```
+
+
+
+### 查看本地库已存放的文件
+
+```bash
+$ git ls-files
 ```
 
 
