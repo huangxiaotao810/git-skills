@@ -23,7 +23,7 @@ $ git remote -v
 ### 关联仓库
 
 ```bash
-$ git remote add origin https://:@gitlab.cern.ch:8443/xiaotao/test.git
+$ git remote add origin https://github.com/huangxiaotao810/git-skills.git
 ```
 
 
@@ -63,7 +63,7 @@ $ git pull origin master
 ### Create a new repository
 
 ```bash
-$ git clone https://:@gitlab.cern.ch:8443/xiaotao/test.git
+$ git clone https://github.com/huangxiaotao810/git-skills.git
 $ cd test
 $ touch README.md
 $ git add README.md
@@ -78,7 +78,7 @@ $ git push -u origin master
 ```bash
 $ cd existing_folder
 $ git init
-$ git remote add origin https://:@gitlab.cern.ch:8443/xiaotao/test.git
+$ git remote add origin https://github.com/huangxiaotao810/git-skills.git
 $ git add .
 $ git commit -m "Initial commit"
 $ git push -u origin master
@@ -91,7 +91,7 @@ $ git push -u origin master
 ```bash
 $ cd existing_repo
 $ git remote rename origin old-origin
-$ git remote add origin https://:@gitlab.cern.ch:8443/xiaotao/test.git
+$ git remote add origin https://github.com/huangxiaotao810/git-skills.git
 $ git push -u origin --all
 $ git push -u origin --tags
 ```
