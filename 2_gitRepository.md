@@ -31,6 +31,9 @@ $ git status
 输入命令，自己观察输出结果的变化
 
 
+### 查看本次修改内容
+`git show`
+
 
 ### 暂存区提交文件到本地库
 
@@ -94,6 +97,38 @@ $ git restore --staged fileName
 
 
 
+### 删除文件
+
+```bash
+$ git rm fileName
+<==> 等价于以下两步：
+	$ rm fileName
+	$ git add fileName
+```
+
+
+
+### 删除文件解释
+
+**恢复 `rm readme.md` 误删？**
+- 从暂存区拉取文件进行恢复`git checkout -- readme.md` 
+
+**恢复`git rm readme.md误删？
+
+- 从本地库拉取文件恢复
+
+```bash
+$ git reset HEAD readme.md
+$ git checkout -- readme.md
+```
+
+**删除本地库文件**
+
+```bash
+$ git rm readme.md
+$ git add .
+$ git commit -m "delete readme.md"
+```
 
 
 
