@@ -37,10 +37,9 @@ $ git remote remove origin
 ### 推送到仓库
 
 ```bash
-$ git push origin branchName
-$ git push -u origin branchName
+$ git push origin <branch-name>
+$ git push -u origin <branch-name> `
 -u` 意同 --set-upstream，用以将本地库分支与远程库分支关联
-$ git push -f origin branchName    强制更新
 ```
 
 
