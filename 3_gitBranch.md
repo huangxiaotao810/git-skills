@@ -21,6 +21,11 @@ $ git merge --no-ff -m "description" branchName
 
 强制删除分支： $ git branch -D branchName
 
+删除远程分支：
+$ git push origin --delete branchName
+OR
+$ git push origin :branchName (origin后面有空格)
+
 查看分支合并图: 
 $ git log --graph 
 $ git log --graph --pretty=oneline --abbrev-commit

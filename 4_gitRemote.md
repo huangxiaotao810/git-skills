@@ -18,8 +18,6 @@ $ git remote -v
 
 
 
-
-
 ### 关联仓库
 
 ```bash
@@ -57,6 +55,20 @@ OR (pull == fetch + merge)
 
 $ git pull origin master
 ```
+
+### 仓库的回滚
+
+```bash
+$ git reset --hard 版本ID
+$ git add --all 
+$ git commit -m "recovery"
+$ git push -f origin master
+```
+
+**Tips: 对master分支进行操作时，由于master分支受保护，所以需要解除保护。（以gitlab为例）**
+
+**解除步骤**
+`打开gitlab项目页 -> Setting -> Repository -> Protected Branches`
 
 
 
