@@ -18,8 +18,6 @@ $ git remote -v
 
 
 
-
-
 ### 关联仓库
 
 ```bash
@@ -72,6 +70,7 @@ $ git push -f origin master
 
 **解除步骤**
 `打开gitlab项目页 -> Setting -> Repository -> Protected Branches`
+
 
 
 ### Create a new repository
